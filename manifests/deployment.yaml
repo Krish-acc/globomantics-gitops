@@ -14,7 +14,7 @@ spec:
         app: globomantics
     spec:
       containers:
-      - name: globomantics
-        image: nginx:1.27.5
-        ports:
-      - containerPort: 80
+        - name: globomantics
+          image: nginx:1.27.5
+          ports:
+            - containerPort: 80
